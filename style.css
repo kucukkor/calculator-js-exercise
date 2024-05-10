@@ -1,0 +1,44 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 750px;
+}
+.result {
+  height: 125px;
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 20px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  color: black;
+  background-color: #d8d9db;
+}
+.row-item {
+  font-size: 50px;
+  border: 1px solid black;
+}
+.row-item {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row-1 .row-item:first-child {
+  width: 250px;
+}
+.row-5 .row-item:first-child {
+  width: 375px;
+}
+
+.row-item:last-child {
+  background-color: #df974c;
+  color: white;
+}
