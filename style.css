@@ -18,19 +18,26 @@
   display: flex;
   width: 100%;
   color: black;
-  background-color: #d8d9db;
+  background-color: rgba(216, 217, 219, 1);
 }
-.row-item {
-  font-size: 50px;
-  border: 1px solid black;
-}
+
 .row-item {
   width: 125px;
   height: 125px;
+  font-size: 50px;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.row-item:hover {
+  background-color: rgb(235, 233, 233);
+}
+
+.row-item:active {
+  background-color: rgb(199, 195, 195);
+}
+
 .row-1 .row-item:first-child {
   width: 250px;
 }
@@ -39,6 +46,15 @@
 }
 
 .row-item:last-child {
-  background-color: #df974c;
+  /* background-color: rgba(223, 151, 76, 1); */
+  background-color: rgb(255, 192, 203);
   color: white;
+}
+
+.row-item:last-child:hover {
+  background-color: rgba(255, 192, 203, 0.5);
+}
+
+.row-item:last-child:active {
+  background-color: rgba(205, 156, 164, 0.5);
 }
